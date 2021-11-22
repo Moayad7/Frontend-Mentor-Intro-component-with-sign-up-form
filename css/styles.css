@@ -1,0 +1,81 @@
+
+
+
+:root{
+    --Red: hsl(0, 100%, 74%); 
+    --Green: hsl(154, 59%, 51%);
+}
+
+body{
+    background-color: #ff7979;
+    background-image: url(../images/bg-intro-desktop.png);
+    font-family: Poppons, montserrat;
+    Font size: 16px;
+}
+
+@media only screen and (max-width: 375px){
+    body{
+        background-image: url(../images/bg-intro-mobile.png);
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.form-style{
+    background-color: #fff;
+    border-radius: 10px;
+}
+h1{
+    font-weight: bolder;
+}
+
+.form-title{
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.form-title a{
+    font-weight: bolder;
+}
+.form-text{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.attribution a{
+    font-weight: bold;
+}
+
+#note, #note2 , #note3 ,#note4{
+    text-align: right;
+    font-style: italic;
+}
+
+.btn{
+    background-color: var(--Green);
+}
+
+.btn:focus{
+    background-color: var(--Green);
+}
+
+.float{
+    float: right;
+    color: #e74c3c;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.small1{
+    visibility: hidden;
+}
+
+
+
+#firstName.error small{
+    visibility: visible;
+}
